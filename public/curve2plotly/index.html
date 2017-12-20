@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <title>curve2plotly</title>
+  <script  src='scripts/main.js'></script>
+</head>
+<body>
+<h2>convert curvefile to json for watchable</h2>
+<p>select a blade curve file and download a json file</p>
+<form>
+  <input type="file" value="select" id="curve"><br><br>
+<!--  <input type="button" value="draw on watchable"> -->
+</form>
+<script type="text/javascript">
+  curve2plotly.init("curve");
+</script>
+</body>
+</html>
