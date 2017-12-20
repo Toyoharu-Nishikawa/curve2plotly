@@ -1,0 +1,1 @@
+convert a blade curvefile to a json for watchable
